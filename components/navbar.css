@@ -1,0 +1,21 @@
+.navbar {
+  background-color: forestgreen; 
+  display: flex; 
+  justify-content: space-between; 
+  padding: 10px 20px; 
+  width: 100%; 
+  position: fixed; 
+  top: 0;
+  z-index: 1000;
+ } 
+
+.navbar-links {
+  display: flex; 
+  align-items: center; 
+  gap: 20px; 
+}
+
+.navbar-link {
+  color: white; 
+  text-decoration: none; 
+}
